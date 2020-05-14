@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #F7F6F6;
   height: 100%;
 }
 
@@ -108,9 +108,35 @@ body {
   height: 100%;
 }
 
+header, 
+.wrapper, 
+footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    border-bottom: 2px solid #B4910C;
+}
+
+h1 {
+    color: #E6C54C;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.intro {
+    font-family: 'Averia Serif Libre', cursive;
+    margin-bottom: 40px;
+
+}
+
 .wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    font-weight: 700;
   /*add display:flex and set justify-content to space-between*/
   /* font-weight: 700; */
 }
@@ -122,16 +148,31 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
+  font-family: 'Hind Guntur', sans-serif;
   font-size: 1.125;
-  background-color: #485050;
-  padding:  0.313em 0.625em;
+  background-color: #D6AF1D;
+  padding:  0.313em 0.63em;
   height: 300px;
   width: 30%;
 }
 
 .div-2 {
-    border-left: 1px solid #35B4B4;
-    border-right: 1px solid #35B4B4;
+    flex-grow: 1;
+    border-left: 1px solid #EDD98F;
+    border-right: 1px solid #EDD98F;
+}
+
+footer {
+    display: flex;
+    border-top: 2px solid #B4910C;
+}
+
+footer i {
+    margin: 40px 0 20px 20px;
+}
+
+footer a {
+    color: #D6AF1D;
 }
 
 
